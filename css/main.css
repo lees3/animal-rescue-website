@@ -17,6 +17,10 @@ nav a:hover {
   background-color: #d3f8de;
 }
 
+h1 {
+  color: #606499;
+}
+
 .banner {
   position: relative;
   overflow: hidden;
@@ -26,10 +30,9 @@ nav a:hover {
 }
 
 .banner-content {
-  max-width: 20em;
   overflow: hidden;
-  left: 70%;
+  left: 50%;
   position: absolute;
   transform: translateX(-50%);
-  bottom: 15px;
+  top: 100px;
 }
