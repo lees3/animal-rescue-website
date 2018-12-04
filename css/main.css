@@ -1,0 +1,9 @@
+nav a {
+  color: #260ac1;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+  background-color: #d3f8de;
+}
