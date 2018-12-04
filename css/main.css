@@ -16,3 +16,20 @@ nav a:hover {
   color: #000;
   background-color: #d3f8de;
 }
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 500px;
+  text-align: left;
+  margin: 0;
+}
+
+.banner-content {
+  max-width: 20em;
+  overflow: hidden;
+  left: 70%;
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 15px;
+}
