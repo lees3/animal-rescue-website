@@ -1,3 +1,12 @@
+html {
+  font-family: "Open Sans", serif;
+}
+
+nav {
+  background-color: #fff;
+  color: #fff;
+}
+
 nav a {
   color: #260ac1;
   text-decoration: none;
