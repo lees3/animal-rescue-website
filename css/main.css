@@ -1,14 +1,14 @@
 html {
   font-family: "Open Sans", serif;
+  background-color: #DCDCDC;
 }
 
 nav {
-  background-color: #fff;
   color: #fff;
 }
 
 nav a {
-  color: #260ac1;
+  color: #606499;;
   text-decoration: none;
 }
 
@@ -34,5 +34,5 @@ h1 {
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
-  top: 100px;
+  top: 70px;
 }
