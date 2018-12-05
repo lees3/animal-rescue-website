@@ -26,9 +26,49 @@
 </header>
 
 <main id="main" role="main" tabindex="0">
-  <h1>Adoption Form</h1>
   <div class="grid contact pad-t-2 pad-b-2">
     <div class="unit xs-1 s-1 m-1 l-1">
       <div class="max-length">
 
-        <form class="push-0 island text-center" method="POST" action="https://formspree.io/lees0029@algonquinlive.com">
+        <fieldset>
+          <legend class="tera">Adoption Form</legend>
+
+          <div class="grid">
+            <div class="push unit xs-1 s-1 m-1 l-1-2">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+            </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2">
+              <label for="number">Phone Number</label>
+              <input id="number" name="number" required>
+            </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2">
+              <label for="email">Email</label>
+              <input
+              id="email" type="email" name="email" required>
+            </div>
+
+              <div class="push unit xs-1 s-1 m-1 l-1-2">
+                <label for="name">Address</label>
+                <input id="name" name="name" required>
+              </div>
+
+              <div class="push unit xs-1 s-1 m-1 l-1-2">
+                <label for="name">Postal Code</label>
+                <input id="name" name="name" required>
+              </div>
+
+            <div class="push unit xs-1 s-1 m-1 l-1-2">
+              <label for="name">What dog you are applying for?</label>
+              <input id="name" name="name" required>
+            </div>
+
+            <div class="push unit wrapper milli push-none">
+              <label for="details">What exercise will you be doing with your dog on a daily basis?</label>
+              <textarea id="details" name="message" required></textarea>
+            </div>
+          </div>
+        </fieldset>
+</div>
