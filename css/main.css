@@ -1,24 +1,23 @@
 html {
   font-family: "Open Sans", serif;
-  background-color: #527586;
+  background-color: #F4F3F1;
 }
 
 nav {
-  color: #fff;
+  color: #0F293E;
 }
 
 nav a {
-  color: #606499;
+  color: #0F293E;
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #000;
-  background-color: #d3f8de;
+h1 {
+  color: #0F293E;
 }
 
-h1 {
-  color: #606499;
+nav a:hover {
+  background-color: #d3f8de;
 }
 
 .banner {
@@ -39,9 +38,14 @@ h1 {
 
 .link-card {
   color: #fff;
-  background-color: #606499;
+  background-color: #0F293E;
   border-style: solid;
-  border-width: 3px;
-  border-color: #000;
-  border-radius: 8px;
+  border-width: 2px;
+  border-color: #0F293E;
+  border-radius: 6px;
+}
+
+.btn {
+  background-color:#0F293E;
+  color: #fff
 }
