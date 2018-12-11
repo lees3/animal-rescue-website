@@ -36,6 +36,11 @@ nav a:hover {
   top: 70px;
 }
 
+.blog-photo {
+  max-width: 300px;
+  width: 100%;
+}
+
 .link-card {
   color: #fff;
   background-color: #0f293e;
