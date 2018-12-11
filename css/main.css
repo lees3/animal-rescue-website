@@ -43,11 +43,12 @@ nav a:hover {
   border-width: 2px;
   border-color: #0f293e;
   border-radius: 6px;
-  max-width: 380px;
+  max-width: 20rem;
+  min-height: 33rem;
 }
 
 .btn {
-  background-color: #FA987E;
+  background-color: #fa987e;
   border-color: #0f293e;
   color: #000;
 }
