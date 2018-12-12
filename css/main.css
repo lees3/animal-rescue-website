@@ -37,21 +37,26 @@ nav a:hover {
 }
 
 .blog-photo {
-  max-width: 300px;
+  /*max-width: 300px;*/
   width: 100%;
 }
 
 .link-card {
   color: #fff;
-  background-color: #0f293e;
+  /*background-color: #0f293e;*/
+  background-color: rgba(255,255,255, 0)
   border-style: solid;
   border-width: 2px;
   border-color: #0f293e;
+  border: none;
   border-radius: 6px;
   max-width: 20rem;
   min-height: 33rem;
 }
 
+.blue {
+    background-color: #0f293e;
+}
 .btn {
   color: #fff;
   border-color: #fa987e;
